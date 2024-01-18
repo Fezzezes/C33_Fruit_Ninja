@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	background-image:url('../images/background.jpg');
+	height:100%;
+	background-size: cover;
+	font-family: 'Indie Flower', cursive;
+	color:yellow;
+	text-shadow: 0 0 2px black;
+	font-size:30px;
+}
+
+h1 {
+	text-align:center;
+}
+
+.container {
+	margin:20px auto;
+	width:900px;
+}
+
+.info {
+	text-align:center;
+}
+
+#game {
+	border:3px solid yellow;
+	margin-top:20px;
+	height:450px;
+	overflow:hidden;
+	position:relative;
+}
+
+#game-over {
+	display:none;
+	border:3px solid orangered;
+	margin-top:20px;
+	height:400px;
+	text-align:center;
+	margin-top:50px;
+}
+
+.sword-slash {
+	position:absolute;
+	background-image:url('../images/sword-slash.png');
+	width:150px;
+	height:104px;
+}
+
+.fruit {
+	position:absolute;
+}
+
+.fruit_1 {
+	background-image:url('../images/coconut.png');
+	background-size:cover;
+	width:89px;
+	height:90px;
+}
+
+.fruit_1-cut {
+	background-image:url('../images/coconut-cut.png');
+	background-size:cover;
+	width:107px;
+	height:138px;
+	z-index:-1;
+}
+
+.fruit_2 {
+	background-image:url('../images/lemon.png');
+	background-size:cover;
+	width:120px;
+	height:135px;
+}
+
+.fruit_2-cut {
+	background-image:url('../images/lemon-cut.png');
+	background-size:cover;
+	width:131px;
+	height:185px;
+	z-index:-1;
+}
+
+.fruit_3 {
+	background-image:url('../images/mango.png');
+	background-size:cover;
+	width:120px;
+	height:135px;
+}
+
+.fruit_3-cut {
+	background-image:url('../images/mango-cut.png');
+	background-size:cover;
+	width:125px;
+	height:170px;
+	z-index:-1;
+}
+
+.fruit_4 {
+	background-image:url('../images/orange.png');
+	background-size:cover;
+	width:115px;
+	height:115px;
+}
+
+.fruit_4-cut {
+	background-image:url('../images/orange-cut.png');
+	background-size:cover;
+	width:129px;
+	height:180px;
+	z-index:-1;
+}
+
+.fruit_5 {
+	background-image:url('../images/pineapple.png');
+	background-size:cover;
+	width:133px;
+	height:229px;
+}
+
+.fruit_5-cut {
+	background-image:url('../images/pineapple-cut.png');
+	background-size:cover;
+	width:161px;
+	height:279px;
+	z-index:-1;
+}
+
+.fruit_6 {
+	background-image:url('../images/watermelon.png');
+	background-size:100%;
+	width:115px;
+	height:135px;
+}
+
+.fruit_6-cut {
+	background-image:url('../images/watermelon-cut.png');
+	background-size:100%;
+	width:150px;
+	height:180px;
+	z-index:-1;
+}
